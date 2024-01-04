@@ -1,0 +1,189 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: rgb(4, 134, 0);
+    color: azure;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px 20px black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center p{
+    text-align: center;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: rgb(4, 134, 0);
+    color: azure;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle at 50% 0%, #0B000D 00%, #007e06 90%);
+    background-repeat: no-repeat;
+}
+
+section {
+    padding-top: 20px;
+    color: azure;
+}
+
+.avatar {
+    height: 300px;
+    text-align: center;
+    background-image: url(images/background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar img {
+    height: 100%;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: azure;
+}
+
+footer a{
+    color: azure;
+}
+
+.btn {
+    text-decoration: none;
+    color: azure;
+    border: 2px solid azure;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: rgb(4, 134, 0);
+    background-color: azure;
+}
+
+.btn-header {
+    color: azure;
+    border-color: azure;
+}
+
+.btn-header:hover {
+    color: rgb(4, 134, 0);
+    background-color: azure;
+}
+
+p {
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid azure;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+#techsTable td, th {
+    padding: 10px;
+}
+
+.card {
+    table-layout: fixed;
+    width: 100%;
+    border-radius: 50px;
+    border-style: none;
+    color: azure;
+    background-color: rgb(4, 134, 0);
+    box-shadow: 10px 10px 10px rgb(0, 100, 0);
+}
+
+.card td {
+    font-size: 18px;
+    border-style: none;
+    text-align: justify;
+    max-height: 395px;
+}
+
+.card td h2 {
+    color: azure;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.table-pic {
+    width: 30%;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.table-pic img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    padding: 0px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    display: block;
+}
+
+.table-desc {
+    padding: 0 30px;
+}
+
+.table-desc p {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
